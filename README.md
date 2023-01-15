@@ -1,7 +1,7 @@
-Rust
+# Rust
 This answers questions about the rust programming language.
 
-How to get started with rust
+## How to get started with rust
 Install the Rust compiler and tools on your system by following the instructions on the official Rust website (https://www.rust-lang.org/). This will allow you to build and run Rust programs on your machine.
 
 Read the Rust book (https://doc.rust-lang.org/book/), which is the official guide to learning Rust. This book covers the basics of the language, its syntax and features, and how to write and build Rust programs.
@@ -14,7 +14,7 @@ Start building small projects in Rust to apply what you've learned and improve y
 
 Overall, the best way to get started with Rust is to install the Rust compiler and tools, read the Rust book and try the Rust by Example website, and then start building small projects to apply what you
 
-How to learn rust.
+## How to learn rust.
 To learn how to code in Rust, you can start by following the official Rust tutorials and guides. These will help you understand the basics of the language and its syntax. After that, you can try to solve some problems or build small projects to apply what you've learned and improve your skills.
 
 Here are some resources to get you started:
@@ -42,7 +42,7 @@ fn main() {
 }
 To run this program, you can use the cargo run command from the project's root directory. This will build and run your code, and you should see the "Hello, world!" message printed to the terminal.
 
-What is rust?
+## What is rust?
 Rust is a programming language that was developed by Mozilla Foundation. It is a statically-typed, compiled language that is designed to be safe, concurrent, and fast.
 
 Rust is known for its strong type system and its focus on memory safety. Its static type system helps to prevent common programming errors, such as null or dangling pointer references, and its strict rules for memory management ensure that programs written in Rust are free from many of the security vulnerabilities and memory leaks that can plague programs written in other languages.
@@ -51,7 +51,7 @@ Rust also has strong support for concurrent programming, with a built-in concurr
 
 Rust is used in a variety of contexts, including systems programming, web development, and game development. It is a highly versatile language that can be used for a wide range of applications.
 
-How can rust be applied to real world applications?
+## How can rust be applied to real world applications?
 Rust can be applied to a wide range of real-world applications, including:
 
 Systems programming: Rust is a good choice for low-level systems programming tasks, such as operating system kernels, device drivers, and other forms of system-level software. Its strong type system and memory safety guarantees make it a safer and more reliable choice than languages like C or C++ for these types of applications.
@@ -71,7 +71,7 @@ Overall, Rust has a wide range of potential applications in the real world, and 
 What should I use rust and not other programming languages such as C or C++?
 You might want to use Rust instead of C for a number of reasons, including:
 
-Memory safety: Rust has a strong type system and a strict set of rules for memory management, which makes it easier to write safe and secure code. Programs written in Rust are less likely to suffer from common memory-related bugs, such as null or dangling pointer references, and are generally more resistant to security vulnerabilities.
+## Memory safety: Rust has a strong type system and a strict set of rules for memory management, which makes it easier to write safe and secure code. Programs written in Rust are less likely to suffer from common memory-related bugs, such as null or dangling pointer references, and are generally more resistant to security vulnerabilities.
 
 Concurrency and parallelism: Rust has built-in support for concurrent and parallel programming, with a concurrency model based on lightweight "green" threads and support for message passing and shared-memory concurrency. This makes it a good choice for building high-performance, concurrent, and parallel systems.
 
@@ -81,7 +81,7 @@ Productivity: Rust has a modern, expressive syntax and a powerful standard libra
 
 Overall, Rust is a safer, more productive, and more powerful alternative to C for many types of applications. If you are looking for a language that offers the performance and low-level control of C, but with added safety and concurrency features, Rust might be a good choice for you.
 
-How is rust memory safe?
+## How is rust memory safe?
 Rust is memory safe because it uses a strong static type system and a set of strict rules for memory management. These features help to prevent common programming errors that can lead to memory-related bugs, such as null or dangling pointer references.
 
 In Rust, all memory is automatically managed by the ownership and borrowing system. This system ensures that each piece of data has a single owner, and that the owner is responsible for freeing the memory when it is no longer needed. This eliminates the need for manual memory management, such as explicit allocation and deallocation of memory using malloc and free in C.
@@ -90,7 +90,7 @@ Rust's ownership and borrowing system also includes a set of rules for accessing
 
 Overall, Rust's memory safety features make it a safer and more reliable language than languages like C or C++, which do not have built-in mechanisms for preventing common memory-related bugs. This makes Rust a good choice for writing low-level systems code, where memory safety is critical.
 
-How can rust be applied to web development?
+## How can rust be applied to web development?
 Rust can be applied to web development in a number of ways, including:
 
 Building web servers and APIs: Rust has a powerful standard library and a growing ecosystem of libraries and frameworks for building web servers and APIs. This makes it a good choice for building the backend of web applications, where performance, concurrency, and reliability are important.
